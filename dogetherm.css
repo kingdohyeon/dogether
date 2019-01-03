@@ -1,4 +1,3 @@
-
 @import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
 
 body {
@@ -102,7 +101,7 @@ body {
   background: #009bfc !important;
 }
 
-/* ¸ð¹ÙÀÏ */
+/* 모바일 */
 
 #header-top-notice {
   display: none;
@@ -168,12 +167,12 @@ span.a-badge i.fa.fa-star {
 }
 
 #board-info #viewers-area #viewers:before {
-    content: "ÀÚÀ¯·Î¿î µµºñ ";
+    content: "자유로운 도비 ";
     cursor: text
 }
 
 #board-info #viewers-area #viewers:after {
-    content: "¸í";
+    content: "명";
     cursor: text
 }
 
