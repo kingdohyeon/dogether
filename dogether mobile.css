@@ -1,0 +1,178 @@
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+body {
+  letter-spacing: -0.05em !important;
+  background: transparent;
+  font-family: 'Nanum Gothic', Arial, Helvetica, sans-serif;
+
+}
+
+#article-list>.article-list-row>.item>.list-title>.list-writer>span {
+  width: 120px !important;
+}
+
+#article-list #article-list-category {
+  border-top: 2px solid #eaf2ff;
+  background: #eaf2ff;
+}
+
+#article-list #article-list-category>a {
+  background: #eaf2ff;
+  height: 34px;
+  color: #5671a9!important;
+}
+
+#article-list #article-list-category>a.active,#article-list #article-list-category>a:hover {
+ //background:#de8f85;
+ color:#62aeff!important;
+ border-bottom:1px solid #b4e8ff;
+}
+
+#article-list>.article-list-row.notice {
+ background-color: #eaf2ff;
+}
+
+#article-list>.article-list-row>.item>.list-header>span {
+  background-color: #009bfc;
+}
+
+#article-list>.article-list-row>.item>.list-title>small.comment-count {
+  color: #62abff;
+}
+
+#article-list>.article-list-row>.item>.list-title>.list-writer.logged>span {
+  color: #006bfc;
+}
+
+.pagination>.active>a,
+.pagination>.active>a:focus,
+.pagination>.active>a:hover,
+.pagination>.active>span,
+.pagination>.active>span:focus,
+.pagination>.active>span:hover {
+  background-color: #62a6ff;
+  border-color: #62a6ff;
+}
+
+.pagination>li>a:focus,
+.pagination>li>a:hover,
+.pagination>li>span:focus,
+.pagination>li>span:hover {
+  background-color: #8bcaff;
+  color: #FFFFFF;
+}
+
+.pagination>li>a,
+.pagination>li>span {
+  color: #62a6ff;
+}
+
+#article-content-wrapper>.header {
+  border-top: 2px solid #009bfc;
+}
+
+#article-reply-area #reply-real-area .reply>.reply-header>.reply-writer.logged,
+#article-reply-area #reply-best-area .reply>.reply-header>.reply-writer.logged {
+  color: #006bfc;
+}
+
+#article-info>h2 {
+  font-weight: bold;
+}
+
+#article-info>h2>span.category {
+  color: #006bfc !important;
+}
+
+#article-reply-area>.header h5 {
+  color: #006bfc;
+}
+
+#article-reply-area #reply-real-area .reply>.reply-header>.reply-writer.logged,
+#article-reply-area #reply-best-area .reply>.reply-header>.reply-writer.logged {
+  color: #005bfc;
+}
+
+.btn-primary {
+  background: #009bfc !important;
+}
+
+/* 모바일 */
+
+#header-top-notice {
+  display: none;
+}
+
+header {
+  background-color: #9dcfff;
+  border-bottom-color: #c4deff;
+}
+
+header>#header-area>a>h1 {
+  background: url('https://raw.githubusercontent.com/sojinkeem/dogether.github.io/master/images/dgdg.png') no-repeat;
+  background-size: auto 30px;
+  background-repeat: no-repeat;
+  height: unset !important;
+}
+
+header>#header-area>#header-search-link {
+  color: #007bfc;
+}
+
+header>#header-area>#header-bar-link {
+  color: #007bfc;
+}
+
+header>#header-search-bar #header-search-btn {
+  color: #007bfc;
+}
+
+#article-list>.article-list-row.notice>.item>a.list-title>.list-writer {
+  display: none;
+}
+
+header>#header-search-bar #header-search-input {
+  border-color: #007bfc;
+}
+
+#article-list>.article-list-row>.item>a.list-title>small.comment-count {
+  color: #62abff;
+  letter-spacing: -0.05em !important;
+}
+
+#article-list>.article-list-row>.item>a.list-title>.list-writer.logged>span {
+  color: #006bfc;
+}
+
+#article-list #article-list-menu>.btn.best>.fa.fa-star:before,.btn-outline-success>i.fa.fa-thumbs-up:before,span.a-badge i.fa.fa-star:before {
+    content: "\f004"
+}
+
+#article-list #article-list-menu>.btn.best,.btn-outline-success {
+ border-color: #2da5ff;
+ color: #2da5ff;
+}
+
+span.a-badge i.fa.fa-star {
+ color: #9dceff;
+}
+
+#nav#nav>.nav-header {
+  background-color: #62abff;
+  color: white;
+}
+
+#board-info #viewers-area #viewers:before {
+    content: "자유로운 도비 ";
+    cursor: text
+}
+
+#board-info #viewers-area #viewers:after {
+    content: "명";
+    cursor: text
+}
+
+#board-info #viewers-area .fa-user:before {
+    color: rgba(10,59,84,0);
+    content: url(https://static-cdn.jtvnw.net/badges/v1/865685a0-f9a2-422e-8e7d-8970a6706481/1);
+}
