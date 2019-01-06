@@ -169,6 +169,11 @@ span.a-badge i.fa.fa-star {
   color: white;
 }
 
+#board-info h1>a {
+  color: #3478ff;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
 #board-info #viewers-area #viewers:before {
     content: "자유로운 도비 ";
     cursor: text
