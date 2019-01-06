@@ -142,8 +142,7 @@ header>#header-search-bar #header-search-input {
   border-color: #007bfc;
 }
 
-#article-list>.article-list-row.notice:hover,#article-list>.article-list-row:hover, 
-#article-list>.article-list-row.notice:active,#article-list>.article-list-row:active{
+#article-list>.article-list-row.notice:hover,#article-list>.article-list-row:hover {
  background-color: #def2ff !important;
 }
 
