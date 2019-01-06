@@ -196,9 +196,8 @@ header #header-bar>.row,
     background:-webkit-linear-gradient(22deg, #93c9ff 0%, #e8f2ff 10%, #badcff 30%,  #e8f2ff 55%, #deeaff 60%, #badcff 90%, #badcff 95%, #dce8ff 99.9%, #98cdff 100%); 
 }
 
-/* 마우스 올릴 때, 선택됐을 때 색상 설정*/
-#article-list>.article-list-row.notice:hover,#article-list>.article-list-row:hover, 
-#article-list>.article-list-row.notice:focus,#article-list>.article-list-row:focus{
+/* 마우스 올릴 때 색상 설정*/
+#article-list>.article-list-row.notice:hover,#article-list>.article-list-row:hover {
  background-color: #def2ff !important;
 }
 
