@@ -189,7 +189,6 @@ span.a-badge i.fa.fa-star {
     content: url(https://static-cdn.jtvnw.net/badges/v1/865685a0-f9a2-422e-8e7d-8970a6706481/1);
 }
 
-#board-info #board-info-bottom a {
-  color: #007bfc;
-  height : 30px;
+#board-info > a.board-right-menu {
+    height: 30px;
 }
