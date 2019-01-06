@@ -257,6 +257,10 @@ header #header-bar>.row,
 #article-reply-area #reply-best-area .reply>.reply-header>.reply-writer.logged {
   color: #005bfc;
 }
+#article-reply-area #reply-real-area .reply > .reply-header { 
+  background: #d4eeff; 
+}
+
 /* 게시글 정보 (게시판 | 글 제목) */
 #article-info>h2 {
   font-weight: bold;
@@ -269,7 +273,7 @@ header #header-bar>.row,
 
 /*게시글 댓글 정보 색상 (댓글 n개) */
 #article-reply-area>.header h5 {
-  color: #005bfc;
+  color: #009bfc;
 }
 
 /* 좌측 메뉴 패딩(바깥쪽 여백) 설정 */
