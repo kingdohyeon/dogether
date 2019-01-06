@@ -79,6 +79,9 @@ body {
 #article-reply-area #reply-best-area .reply>.reply-header>.reply-writer.logged {
   color: #006bfc;
 }
+#article-reply-area #reply-real-area .reply > .reply-header { 
+  background: #d4eeff; 
+}
 
 #article-info>h2 {
   font-weight: bold;
