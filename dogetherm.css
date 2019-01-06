@@ -142,6 +142,11 @@ header>#header-search-bar #header-search-input {
   border-color: #007bfc;
 }
 
+#article-list>.article-list-row.notice:hover,#article-list>.article-list-row:hover, 
+#article-list>.article-list-row.notice:focus,#article-list>.article-list-row:focus{
+ background-color: #def2ff !important;
+}
+
 #article-list>.article-list-row>.item>a.list-title>small.comment-count {
   color: #62abff;
   letter-spacing: -0.05em !important;
