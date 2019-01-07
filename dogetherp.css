@@ -5,9 +5,10 @@ html {
   height: auto !important;
 }
 body {
-letter-spacing: -0.05em !important;
+  letter-spacing: -0.05em !important;
   background: transparent;
   font-family: 'Nanum Gothic', sans-serif;
+  background-image: url(https://kingdohyeon.github.io/dogether/stars.png),url(https://kingdohyeon.github.io/dogether/stars.png);
 }
 
 /* 전체 쉐도우 */
@@ -199,7 +200,8 @@ header #header-bar>.row,
 }
 
 #article-list > .article-list-row.hot { 
-    background:-webkit-linear-gradient(22deg, #93c9ff 0%, #e8f2ff 10%, #badcff 30%,  #e8f2ff 55%, #deeaff 60%, #badcff 90%, #badcff 95%, #dce8ff 99.9%, #98cdff 100%); 
+    background:-webkit-linear-gradient(22deg, #93c9ff 0%, #e8f2ff 10%, #badcff 30%, 
+      #e8f2ff 55%, #deeaff 60%, #badcff 90%, #badcff 95%, #dce8ff 99.9%, #98cdff 100%); 
 }
 
 /* 마우스 올릴 때 색상 설정*/
@@ -309,7 +311,8 @@ span.a-badge i.fa.fa-info-circle {
 }
 
 /* 인기글 아이콘 설정 */
-#article-list #article-list-menu>.btn.best>.fa.fa-star:before,.btn-outline-success>i.fa.fa-thumbs-up:before,span.a-badge i.fa.fa-star:before {
+#article-list #article-list-menu>.btn.best>.fa.fa-star:before,
+.btn-outline-success>i.fa.fa-thumbs-up:before,span.a-badge i.fa.fa-star:before {
     content: "\f004"
 }
 
