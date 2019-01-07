@@ -334,6 +334,16 @@ span.a-badge i.fa.fa-info-circle {
 /* 글 목록 인기글 아이콘 색상 설정*/
 span.a-badge i.fa.fa-star {
  color: #9dceff;
+ animation: rotate 2s infinite;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 /* 하단 메뉴 (인기글, 1234페이지, 글쓰기) */
