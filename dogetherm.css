@@ -172,15 +172,18 @@ header>#header-search-bar #header-search-input {
 
 span.a-badge i.fa.fa-star {
  color: #9dceff;
- animation: rotate 2s infinite;
+ animation: rotate 1.5s infinite;
 }
 
 @keyframes rotate {
   0% {
-    transform: rotate(0deg);
+    transform: rotate(-20deg);
+  }
+  50% {
+    transform: rotate(20deg);
   }
   100% {
-    transform: rotate(360deg);
+    transform: rotate(-20deg);
   }
 }
 
