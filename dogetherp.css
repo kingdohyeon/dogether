@@ -322,7 +322,7 @@ span.a-badge i.fa.fa-info-circle {
 /* 인기글 아이콘 설정 */
 #article-list #article-list-menu>.btn.best>.fa.fa-star:before,
 .btn-outline-success>i.fa.fa-thumbs-up:before,span.a-badge i.fa.fa-star:before {
-    content: "\f004"
+    //content: "\f004"
 }
 
 /* 인기글 버튼 색상 설정*/
