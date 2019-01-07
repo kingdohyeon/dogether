@@ -138,6 +138,10 @@ header #header-bar>.row,
  box-shadow: 2px 1px 5px 0.1px rgba(0, 0, 0, 0.15);
 }
 
+.badge {
+    background-color: #62a8ff;
+}
+
 #board-info #viewers-area #viewers:before {
     content: "자유로운 도비 ";
     cursor: text;
