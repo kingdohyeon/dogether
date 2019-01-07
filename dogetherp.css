@@ -339,13 +339,13 @@ span.a-badge i.fa.fa-star {
 
 @keyframes rotate {
   0% {
-    transform: rotate(-20deg);
+    transform: rotate(-10deg);
   }
   50% {
-    transform: rotate(20deg);
+    transform: rotate(10deg);
   }
   100% {
-    transform: rotate(-20deg);
+    transform: rotate(-10deg);
   }
 }
 
