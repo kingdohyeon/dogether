@@ -275,6 +275,10 @@ header #header-bar>.row,
   background: #d4eeff; 
 }
 
+#article-info {
+  padding-top: 5.2px;
+}
+
 /* 게시글 정보 (게시판 | 글 제목) */
 #article-info>h2 {
   font-weight: bold;
