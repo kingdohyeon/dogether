@@ -162,7 +162,7 @@ header>#header-search-bar #header-search-input {
 }
 
 #article-list #article-list-menu>.btn.best>.fa.fa-star:before,.btn-outline-success>i.fa.fa-thumbs-up:before,span.a-badge i.fa.fa-star:before {
-    //content: "\f004"
+    content: "\f004"
 }
 
 #article-list #article-list-menu>.btn.best,.btn-outline-success {
