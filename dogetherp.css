@@ -107,8 +107,9 @@ header #header-bar>.row,
  overflow:inherit;
  padding:.5em em;
  background:#fff;
- height:44px;
+ height:70px;
  margin-top: .1em;
+ margin-bottom: .1em;
 }
 
 #board-info h1 {
@@ -177,7 +178,7 @@ header #header-bar>.row,
 #article-list #article-list-category {
   border-top: 3px solid #009bfc;
  background: #eaf2ff;
-  margin-top: 1.8em;
+  margin-top: .8em;
 }
 
 /* 상단 메뉴 좌측(홈 자유게시판 클립노트 DM 게임추천 팬아트,짤) */
