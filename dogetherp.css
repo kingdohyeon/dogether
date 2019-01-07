@@ -322,7 +322,7 @@ span.a-badge i.fa.fa-info-circle {
 /* 인기글 아이콘 설정 */
 #article-list #article-list-menu>.btn.best>.fa.fa-star:before,
 .btn-outline-success>i.fa.fa-thumbs-up:before,span.a-badge i.fa.fa-star:before {
-    //content: "\f004"
+    content: "\f004"
 }
 
 /* 인기글 버튼 색상 설정*/
@@ -334,15 +334,18 @@ span.a-badge i.fa.fa-info-circle {
 /* 글 목록 인기글 아이콘 색상 설정*/
 span.a-badge i.fa.fa-star {
  color: #9dceff;
- animation: rotate 2s infinite;
+ animation: rotate 1.5s infinite;
 }
 
 @keyframes rotate {
   0% {
-    transform: rotate(0deg);
+    transform: rotate(-20deg);
+  }
+  50% {
+    transform: rotate(20deg);
   }
   100% {
-    transform: rotate(360deg);
+    transform: rotate(-20deg);
   }
 }
 
