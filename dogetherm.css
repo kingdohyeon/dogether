@@ -84,6 +84,25 @@ body {
   background: #d4eeff; 
 }
 
+/* 베스트 댓글 */
+#article-reply-area #reply-best-area .reply > .reply-header { 
+  background: #d4eeff; 
+}
+
+#article-reply-area #reply-best-area .reply > .reply-content { 
+  background: aliceblue; 
+}
+
+#article-reply-area #reply-best-area .reply { 
+  border: 2px solid #8deaff; 
+}
+
+#article-reply-area #reply-best-area .label { 
+  color: #fff; 
+  background: #7beaff;
+  border: .5px dotted #8dd2ff;
+}
+
 #article-info>h2 {
   font-weight: bold;
 }
@@ -199,6 +218,15 @@ span.a-badge i.fa.fa-star {
 
 .badge {
     background-color: #62a8ff;
+}
+
+#board-info h1 > a.badge.badge-live::after { 
+    content: " 뱅송중"; 
+}
+
+#board-info h1 > a.badge.badge-live { 
+    background: #3aaefb;
+    border: 2px dotted aliceblue;
 }
 
 #board-info #viewers-area #viewers:before {
