@@ -303,6 +303,12 @@ header #header-bar>.row,
   border: 2px solid #8deaff; 
 }
 
+#article-reply-area #reply-best-area .label { 
+  color: #fff; 
+  background: #7beaff;
+  border: .5px dotted #8dd2ff;
+}
+
 #article-info {
   padding-top: 5.2px;
 }
