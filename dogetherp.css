@@ -290,6 +290,19 @@ header #header-bar>.row,
   background: #d4eeff; 
 }
 
+/* 베스트 댓글 */
+#article-reply-area #reply-best-area .reply > .reply-header { 
+  background: #d4eeff; 
+}
+
+#article-reply-area #reply-best-area .reply > .reply-content { 
+  background: aliceblue; 
+}
+
+#article-reply-area #reply-best-area .reply { 
+  border: 2px solid #8deaff; 
+}
+
 #article-info {
   padding-top: 5.2px;
 }
