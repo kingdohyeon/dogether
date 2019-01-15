@@ -314,6 +314,25 @@ header #header-bar>.row,
   color: #fff; 
   background: #7beaff;
   border: .5px dotted #8dd2ff;
+  animation: colors 2s infinite;
+}
+
+@keyframes colors {
+  0% {
+    background: #7beaff;
+  }
+  25% {
+    background: #83aefb;
+	}
+	50% {
+    background: #ae83fb;
+	}
+  75% {
+    background: #3aaefb;
+	}
+	100% {
+    background: #7beaff;
+	}
 }
 
 #article-info {
