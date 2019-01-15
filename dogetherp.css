@@ -11,6 +11,14 @@ body {
   background-image: url(https://kingdohyeon.github.io/dogether/stars.png),url(https://kingdohyeon.github.io/dogether/stars.png);
 }
 
+/* 우도많사 */
+header {
+  background-image: url(https://kingdohyeon.github.io/dogether/wdmssss.png);
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-attachment: fixed;
+}
+
 /* 전체 쉐도우 */
 header #header-bar>.row,
 #main .menu-wrapper,
@@ -141,6 +149,9 @@ header #header-bar>.row,
 .badge {
     background-color: #62a8ff;
 }
+
+/* live 방송 배지 */
+#board-info h1 > a.badge.badge-live::after { font-size: 12px; content: " 뱅송중"; }
 
 #board-info #viewers-area #viewers:before {
     content: "자유로운 도비 ";
