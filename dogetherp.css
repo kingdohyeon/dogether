@@ -151,7 +151,14 @@ header #header-bar>.row,
 }
 
 /* live 방송 배지 */
-#board-info h1 > a.badge.badge-live::after { font-size: 12px; content: " 뱅송중"; }
+#board-info h1 > a.badge.badge-live::after { 
+    content: " 뱅송중"; 
+}
+
+#board-info h1 > a.badge.badge-live { 
+    background: #3aaefb;
+    border: 2px dotted aliceblue;
+}
 
 #board-info #viewers-area #viewers:before {
     content: "자유로운 도비 ";
