@@ -8,7 +8,6 @@ body {
   letter-spacing: -0.05em !important;
   background: transparent;
   font-family: 'Nanum Gothic', sans-serif;
-  white-space: nowrap;
   background-image: 
 	  url(https://kingdohyeon.github.io/dogether/img/stars.png),url(https://kingdohyeon.github.io/dogether/img/stars.png);
 }
