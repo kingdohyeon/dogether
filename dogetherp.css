@@ -181,6 +181,11 @@ header #header-bar>.row,
     vertical-align: top;
 }
 
+ins.adsbygoogle, iframe {
+  position: absolute;
+  display: none;
+}
+
 /* 메인블록 상단 우측 메뉴 */
 #board-info #board-info-bottom  {
  flex:auto;
