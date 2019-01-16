@@ -261,8 +261,9 @@ span.a-badge i.fa.fa-star {
 }
 
 #board-info #viewers-area {
-    padding-top: 3px;
-    vertical-align: bottom;
+/*     vertical-align: bottom; */
+	position: relative;
+    top: 2px;
 }
 
 #board-info #viewers-area #viewers:before {
