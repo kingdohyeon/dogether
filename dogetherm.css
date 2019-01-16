@@ -5,7 +5,7 @@ body {
   letter-spacing: -0.05em !important;
   background: transparent;
   font-family: 'Nanum Gothic', Arial, Helvetica, sans-serif;
-  white-space: normal;
+  white-space: nowrap;
 }
 
 #article-list>.article-list-row>.item>.list-title>.list-writer>span {
