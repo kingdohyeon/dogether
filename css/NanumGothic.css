@@ -1,7 +1,7 @@
 @font-face {
   font-family: 'Nanum Gothic';
   font-style: normal;
-  font-weight: 300;
+  font-weight: 400;
   src: local('NanumGothic'), url(https://kingdohyeon.github.io/dogether/fonts/NanumGothic.woff2) format('woff2');
   unicode-range: U+0-10FFFF;
 }
