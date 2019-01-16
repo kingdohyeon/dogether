@@ -281,6 +281,8 @@ span.a-badge i.fa.fa-star {
 #board-info #viewers-area .fa-user:before {
     color: rgba(10,59,84,0);
     content: url(https://static-cdn.jtvnw.net/badges/v1/865685a0-f9a2-422e-8e7d-8970a6706481/1);
+    position: relative;
+    bottom: 1px;
 }
 
 #board-info #viewers-area #viewers {
