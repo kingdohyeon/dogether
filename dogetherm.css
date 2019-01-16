@@ -145,6 +145,11 @@ body {
 
 /* 모바일 */
 
+#header-top-notice{
+  padding-bottom: 25px;
+  border-bottom: 3px solid #c4deff;
+}
+
 #header-top-notice strong.notice-badge {
   background: #009bfc;
   border: 1px solid #009bfc;
