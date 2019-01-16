@@ -278,6 +278,7 @@ span.a-badge i.fa.fa-star {
 }
 
 ins.adsbygoogle, iframe {
-  position: absolute;
-  display: none;
+    position: absolute;
+    display: none;
+    width: 1px;
 }
