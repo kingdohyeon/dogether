@@ -1,4 +1,4 @@
-﻿@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+﻿@import url(https://fonts.googleapis.com/earlyaccess/nanumgothic.css);
 /* 전체 배경*/
 html {
   background: linear-gradient(to bottom, #84b1de, #D6F0FF); 
@@ -197,8 +197,8 @@ header #header-bar>.row,
 }
 
 ins.adsbygoogle, iframe {
-  position: absolute;
-  display: none;
+  position: fixed;
+  display: none!important;
 }
 
 /* 글 목록 설정 */
