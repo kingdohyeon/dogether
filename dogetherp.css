@@ -1,9 +1,11 @@
 ﻿@import url("https://kingdohyeon.github.io/dogether/css/NanumGothic.css");
+
 /* 전체 배경*/
 html {
   background: linear-gradient(to bottom, #84b1de, #D6F0FF); 
   height: auto !important;
 }
+
 body {
   letter-spacing: -0.05em !important;
   background: transparent;
@@ -40,6 +42,7 @@ header .row>div:nth-child(1)>a {
   background: url(https://kingdohyeon.github.io/dogether/img/dgdg.png) no-repeat;
   background-size: auto 70px;
 }
+
 /* 기존 트게더 로고 설정 */
 header .row>div:nth-child(1)>a>img {
   display: block;
@@ -160,6 +163,12 @@ header #header-bar>.row,
 #board-info h1 > a.badge.badge-live { 
     background: #3aaefb;
     border: 2px dotted aliceblue;
+}
+
+#board-info #viewers-area {
+/*     vertical-align: bottom; */
+    position: relative;
+    top: 1px;
 }
 
 #board-info #viewers-area #viewers:before {
