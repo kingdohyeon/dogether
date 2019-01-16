@@ -1,11 +1,12 @@
 /* ﻿@import url(https://fonts.googleapis.com/earlyaccess/nanumgothic.css); */
 /* @import url('https://fonts.googleapis.com/css?family=Nanum+Gothic'); */
 /* @import url("https://kingdohyeon.github.io/dogether/css/NanumGothic.css"); */
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR&subset=korean');
 
 body {
   letter-spacing: -0.05em !important;
   background: transparent;
-  font-family: 'Nanum Gothic Coding', Arial, Helvetica, sans-serif, monospace;
+  font-family: 'Noto Sans KR', Arial, Helvetica, sans-serif;
 }
 
 #article-list>.article-list-row>.item>.list-title>.list-writer>span {
