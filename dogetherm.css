@@ -263,13 +263,13 @@ span.a-badge i.fa.fa-star {
 #board-info #viewers-area #viewers:before {
     content: "자유로운 도비 ";
     cursor: text;
-    vertical-align: top;
+/*     vertical-align: top; */
 }
 
 #board-info #viewers-area #viewers:after {
     content: "명";
     cursor: text;
-    vertical-align: top;
+/*     vertical-align: top; */
 }
 
 #board-info #viewers-area .fa-user:before {
@@ -278,7 +278,7 @@ span.a-badge i.fa.fa-star {
 }
 
 #board-info #viewers-area #viewers {
-    vertical-align: top;
+/*     vertical-align: top; */
 }
 
 #board-info > a.board-right-menu {
