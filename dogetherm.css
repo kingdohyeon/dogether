@@ -239,6 +239,7 @@ span.a-badge i.fa.fa-star {
 #board-info {
   border-top: 4px solid #c4deff;
   border-bottom: 2px solid #c4deff;
+  letter-spacing: -0.05em !important;
 }
 
 #board-info h1>a {
