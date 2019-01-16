@@ -1,5 +1,4 @@
-/* ﻿@import url(https://fonts.googleapis.com/earlyaccess/nanumgothic.css); */
-@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic:400,700,800&subset=korean');
+﻿@import url(https://fonts.googleapis.com/earlyaccess/nanumgothic.css);
 
 body {
   letter-spacing: -0.05em !important;
@@ -241,7 +240,7 @@ span.a-badge i.fa.fa-star {
   border-top: 4px solid #c4deff;
   border-bottom: 2px solid #c4deff;
   letter-spacing: -0.05em !important;
-  font-size: 12px !important;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 #board-info h1>a {
