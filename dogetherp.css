@@ -8,12 +8,13 @@ body {
   letter-spacing: -0.05em !important;
   background: transparent;
   font-family: 'Nanum Gothic', sans-serif;
-  background-image: url(https://kingdohyeon.github.io/dogether/stars.png),url(https://kingdohyeon.github.io/dogether/stars.png);
+  background-image: 
+	  url(https://kingdohyeon.github.io/dogether/img/stars.png),url(https://kingdohyeon.github.io/dogether/img/stars.png);
 }
 
 /* 우도많사 */
 header {
-  background-image: url(https://kingdohyeon.github.io/dogether/tcgwdms.png);
+  background-image: url(https://kingdohyeon.github.io/dogether/img/tcgwdms.png);
   background-repeat: no-repeat;
   background-position-x: center;
   background-attachment: fixed;
@@ -36,7 +37,7 @@ header .row>div:nth-child(1)>a {
   display: block;
   width: 200px;
   height: 70px;
-  background: url(https://kingdohyeon.github.io/dogether/dgdg.png) no-repeat;
+  background: url(https://kingdohyeon.github.io/dogether/img/dgdg.png) no-repeat;
   background-size: auto 70px;
 }
 /* 기존 트게더 로고 설정 */
