@@ -147,7 +147,6 @@ body {
 
 #header-top-notice{
   padding-bottom: 25px;
-  border-bottom: 3px solid #c4deff;
 }
 
 #header-top-notice strong.notice-badge {
@@ -235,6 +234,11 @@ span.a-badge i.fa.fa-star {
 #nav#nav>.nav-header {
   background-color: #62abff;
   color: white;
+}
+
+#board-info {
+  border-top: 3px solid #c4deff;
+  border-bottom: 2px solid #c4deff;
 }
 
 #board-info h1>a {
