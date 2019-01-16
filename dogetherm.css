@@ -1,4 +1,4 @@
-﻿@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+﻿@import url(https://fonts.googleapis.com/earlyaccess/nanumgothic.css);
 
 body {
   letter-spacing: -0.05em !important;
@@ -237,7 +237,7 @@ span.a-badge i.fa.fa-star {
 }
 
 #board-info {
-  border-top: 3px solid #c4deff;
+  border-top: 4px solid #c4deff;
   border-bottom: 2px solid #c4deff;
 }
 
