@@ -14,6 +14,7 @@ body {
 	  url(https://kingdohyeon.github.io/dogether/img/stars.png),
 	  url(https://kingdohyeon.github.io/dogether/img/stars.png),
 	  url(https://kingdohyeon.github.io/dogether/img/overlay.png);
+  background-attachment: fixed;
 }
 
 /* 우도많사 */
