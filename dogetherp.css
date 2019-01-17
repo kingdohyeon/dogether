@@ -11,7 +11,9 @@ body {
   background: transparent;
   font-family: 'Nanum Gothic', sans-serif;
   background-image: 
-	  url(https://kingdohyeon.github.io/dogether/img/stars.png),url(https://kingdohyeon.github.io/dogether/img/stars.png);
+	  url(https://kingdohyeon.github.io/dogether/img/stars.png),
+	  url(https://kingdohyeon.github.io/dogether/img/stars.png),
+	  url(https://kingdohyeon.github.io/dogether/img/overlay.png);
 }
 
 /* 우도많사 */
