@@ -1,8 +1,8 @@
 ﻿@import url("https://kingdohyeon.github.io/dogether/css/NanumGothic.css");
 /*
-	  SOJIN KIM 김소진
-	sojinkeem@gmail.com
-	sojinkeem@naver.com
+Editor: SOJIN KIM 김소진
+e-mail: sojinkeem@gmail.com / sojinkeem@naver.com
+Updated: Jan 19, 2019 for DOHYEON KIM
 */
 
 /* 전체 배경*/
@@ -16,9 +16,9 @@ body {
   background: transparent;
   font-family: 'Nanum Gothic', sans-serif;
   background-image: 
+	  url(https://kingdohyeon.github.io/dogether/img/overlay22.png),
 	  url(https://kingdohyeon.github.io/dogether/img/stars.png),
-	  url(https://kingdohyeon.github.io/dogether/img/stars.png),
-	  url(https://kingdohyeon.github.io/dogether/img/overlay22.png);
+	  url(https://kingdohyeon.github.io/dogether/img/stars.png);
   background-attachment: fixed;
   background-position-x: center;
   background-repeat: no-repeat;
