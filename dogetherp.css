@@ -216,10 +216,10 @@ header #header-bar>.row,
   color: #007bfc;
 }
 
-ins.adsbygoogle, iframe {
+/* ins.adsbygoogle, iframe {
   position: fixed;
   display: none!important;
-}
+} */
 
 /* 글 목록 설정 */
 /* 상단 메뉴 전체 설정*/
