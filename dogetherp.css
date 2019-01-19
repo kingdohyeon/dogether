@@ -25,7 +25,7 @@ body {
 }
 
 header {
-  background-image: url(https://kingdohyeon.github.io/dogether/img/headernotice.png);
+  background-image: url(https://kingdohyeon.github.io/dogether/img/headernotice2.png);
   background-repeat: no-repeat;
   background-position-x: center;
 /*   background-attachment: fixed; */
@@ -47,9 +47,9 @@ header #header-bar>.row {
 header .row>div:nth-child(1)>a {
   display: block;
   width: 200px;
-  height: 70px;
+  height: 59px;
   background: url(https://kingdohyeon.github.io/dogether/img/dgdg.png) no-repeat;
-  background-size: auto 70px;
+  background-size: auto 59px;
   background-position-y: center;
 }
 
