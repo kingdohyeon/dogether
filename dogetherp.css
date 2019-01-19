@@ -50,7 +50,8 @@ header .row>div:nth-child(1)>a {
   height: 59px;
   background: url(https://kingdohyeon.github.io/dogether/img/dgdg.png) no-repeat;
   background-size: auto 59px;
-  background-position-y: center;
+  background-position: 7px center;
+/*   background-position-y: center; */
 }
 
 /* 기존 트게더 로고 설정 */
