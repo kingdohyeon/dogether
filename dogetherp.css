@@ -28,7 +28,7 @@ header {
   background-image: url(https://kingdohyeon.github.io/dogether/img/headernotice.png);
   background-repeat: no-repeat;
   background-position-x: center;
-  background-attachment: fixed;
+/*   background-attachment: fixed; */
 }
 
 /* 전체 쉐도우 */
