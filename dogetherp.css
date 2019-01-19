@@ -25,7 +25,7 @@ body {
 }
 
 header {
-  background-image: url(https://kingdohyeon.github.io/dogether/img/headernotice2.png);
+  background-image: url(https://kingdohyeon.github.io/dogether/img/headernotice.png);
   background-repeat: no-repeat;
   background-position-x: center;
 /*   background-attachment: fixed; */
@@ -47,9 +47,10 @@ header #header-bar>.row {
 header .row>div:nth-child(1)>a {
   display: block;
   width: 200px;
-  height: 50px;
+  height: 70px;
   background: url(https://kingdohyeon.github.io/dogether/img/dgdg.png) no-repeat;
-  background-size: auto 50px;
+  background-size: auto 70px;
+  background-position-y: center;
 }
 
 /* 기존 트게더 로고 설정 */
