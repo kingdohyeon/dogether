@@ -2,7 +2,7 @@
 /*
 Developer: SOJIN KIM 김소진
 e-mail: sojinkeem@gmail.com / sojinkeem@naver.com
-Updated:  02, 2019 for DOHYEON KIM 김도현
+Updated: Mar 03, 2019 for DOHYEON KIM 김도현
 */
 
 body {
@@ -250,6 +250,10 @@ span.a-badge i.fa.fa-star {
 #nav#nav>.nav-header {
   background-color: #62abff;
   color: white;
+}
+
+#nav#nav>.nav-menu-area sup {
+  color: lightskyblue!important;;
 }
 
 #board-info {
