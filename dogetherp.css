@@ -360,17 +360,17 @@ header #header-bar>.row,
 /* 상하글 인디케이터 */
 /* 윗글 아랫글 */
 #article-neighbor-list>div>span.indicator {
-  color: #84b1de;
+  color: #617bea;
 }
 
 /* 글 제목 */
 #article-neighbor-list>div>a.subject {
-  color: #222222;
+  color: #5671a9;
 }
 
 /* 작성자 */
 #article-neighbor-list>div>span.author {
-  color: ;
+  color: #84b1de;
 }
 
 #article-info {
