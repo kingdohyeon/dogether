@@ -126,6 +126,18 @@ body {
 	}
 }
 
+#article-neighbor-list>div>span.indicator {
+  color: #617bea;
+}
+
+#article-neighbor-list>div>a.subject {
+  color: #5671a9;
+}
+
+#article-neighbor-list>div>span.author {
+  color: #84b1de;
+}
+
 #article-info>h2 {
   font-weight: bold;
 }
