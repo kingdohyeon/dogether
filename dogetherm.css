@@ -252,6 +252,10 @@ span.a-badge i.fa.fa-star {
   color: white;
 }
 
+#nav #notification-badge {
+  background: #0a61ea!important;;
+}
+
 #nav#nav>.nav-menu-area sup {
   color: lightskyblue!important;;
 }
