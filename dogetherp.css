@@ -43,6 +43,11 @@ header #header-bar>.row {
   border: 3px solid #004bfc;
 }
 
+/* 새 알림 배지 */
+#header-menu-right #notification-badge {
+  background: #0a61ea!important;;
+}
+
 /* 헤더 배너 도게더 로고 설정 */
 header .row>div:nth-child(1)>a {
   display: block;
