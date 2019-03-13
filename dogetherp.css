@@ -2,7 +2,7 @@
 /*
 Developer: SOJIN KIM 김소진
 e-mail: sojinkeem@gmail.com / sojinkeem@naver.com
-Updated: Mar 03, 2019 for DOHYEON KIM 김도현
+Updated: Mar 13, 2019 for DOHYEON KIM 김도현
 */
 
 /* 전체 배경*/
@@ -17,16 +17,17 @@ body {
   font-family: 'Nanum Gothic', sans-serif;
   background-image: 
 /* 	  url(https://kingdohyeon.github.io/dogether/img/overlay222.png), */
-/* 	  url(https://kingdohyeon.github.io/dogether/img/blossoms.png), */
+	  url(https://kingdohyeon.github.io/dogether/img/blossoms.png),
+	  url(https://kingdohyeon.github.io/dogether/img/blos.gif),
 	  url(https://kingdohyeon.github.io/dogether/img/stars.png),
 	  url(https://kingdohyeon.github.io/dogether/img/stars.png);
 /*   background-attachment: fixed; */
   background-position-x: center;
-  background-repeat: no-repeat;
+  background-repeat: space;
 }
 
 header {
-  background-image: url(https://kingdohyeon.github.io/dogether/img/headernotice.png);
+  background-image: url(https://kingdohyeon.github.io/dogether/img/headercharacter.png);
   background-repeat: no-repeat;
   background-position-x: center;
 /*   background-attachment: fixed; */
