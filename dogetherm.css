@@ -2,7 +2,7 @@
 /*
 Developer: SOJIN KIM 김소진
 e-mail: sojinkeem@gmail.com / sojinkeem@naver.com
-Updated: Mar 13, 2019 for DOHYEON KIM 김도현
+Updated: Mar 14, 2019 for DOHYEON KIM 김도현
 */
 
 body {
@@ -236,6 +236,18 @@ header>#header-search-bar #header-search-input {
 span.a-badge i.fa.fa-star {
  color: #9dceff;
  animation: rotate 1.5s infinite;
+}
+
+#favoriteDropdown .fa-star:before {
+  content:  url(https://kingdohyeon.github.io/dogether/img/StudentDo15.png);
+  filter:drop-shadow(1px 1px 1px rgba(1,0,0,0));
+  position: relative;
+  top: 3px;
+}
+
+#addFavoriteBtn .fa-star:before {
+  content:  url(https://kingdohyeon.github.io/dogether/img/NewBorn15.png);
+  filter:drop-shadow(1px 1px 1px rgba(1,0,0,0));
 }
 
 @keyframes rotate {
