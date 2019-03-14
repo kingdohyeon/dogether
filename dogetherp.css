@@ -86,6 +86,22 @@ header #header-bar .fa {
   color: #009bfc;
 }
 
+/* 헤더 즐겨찾기 favicon */
+#favoriteDropdown .fa-star:before {
+  content:  url(https://kingdohyeon.github.io/dogether/img/StudentDo15.png);
+  filter:drop-shadow(1px 1px 1px rgba(1,0,0,0));
+  position: relative;
+  top: 3.5px;
+}
+
+/* 메인 즐겨찾기 favicon */
+#addFavoriteBtn .fa-star:before {
+  content:  url(https://kingdohyeon.github.io/dogether/img/NewBorn15.png);
+  filter:drop-shadow(1px 1px 1px rgba(1,0,0,0));
+  position: relative;
+  top: 3.5px;
+}
+
 /* 좌측 메뉴 (트게더 전체메뉴, 유용한링크, 트위치 스케쥴) */
 #main .menu-wrapper>.header {
   background: #018eff;
