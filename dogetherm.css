@@ -250,6 +250,16 @@ span.a-badge i.fa.fa-star {
   filter:drop-shadow(1px 1px 1px rgba(1,0,0,0));
 }
 
+a.board-right-menu .fa-twitch:before {
+  position: relative;
+  top: 0.5px;
+}
+
+#goClipBtn .fa-film:before {
+  position: relative;
+  bottom: 0.9px;
+}
+
 @keyframes rotate {
   0% {
     transform: rotate(-10deg);
