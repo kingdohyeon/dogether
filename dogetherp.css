@@ -91,7 +91,7 @@ header #header-bar .fa {
   content:  url(https://kingdohyeon.github.io/dogether/img/StudentDo15.png);
   filter:drop-shadow(1px 1px 1px rgba(1,0,0,0));
   position: relative;
-  top: 3.5px;
+  top: 3.3px;
 }
 
 /* 메인 즐겨찾기 favicon */
