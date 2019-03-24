@@ -18,11 +18,12 @@ body {
   background-image: 
 	  url(https://kingdohyeon.github.io/dogether/img/stars.png),
 	  url(https://kingdohyeon.github.io/dogether/img/stars.png),
-	  url(https://kingdohyeon.github.io/dogether/img/blossoms.png),
+	  url(https://kingdohyeon.github.io/dogether/img/blossoms.png);
 /* 	  url(https://kingdohyeon.github.io/dogether/img/blos.gif); */
 /*   background-attachment: fixed; */
   background-position-x: center;
-  background-repeat: space;
+  background-repeat: no-repeat;
+/*   background-repeat: space; */
 }
 
 header {
