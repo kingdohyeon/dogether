@@ -1,0 +1,353 @@
+﻿﻿@import url("https://kingdohyeon.github.io/dogether/css/NanumGothic.css");
+/*
+Developer: SOJIN KIM 김소진
+e-mail: sojinkeem@gmail.com / sojinkeem@naver.com
+Updated: Mar 14, 2019 for DOHYEON KIM 김도현
+*/
+
+body {
+  letter-spacing: -0.05em !important;
+  background: transparent;
+  font-family: 'Nanum Gothic', Arial, Helvetica, sans-serif;
+}
+
+#article-list>.article-list-row>.item>.list-title>.list-writer>span {
+  width: 120px !important;
+}
+
+#article-list #article-list-category {
+  border-top: 2px solid #eaf2ff;
+  background: #eaf2ff;
+}
+
+#article-list #article-list-category>a {
+  background: #eaf2ff;
+  height: 34px;
+  color: #5671a9!important;
+}
+
+#article-list #article-list-category>a.active,#article-list #article-list-category>a:hover {
+ //background:#de8f85;
+ color:#62aeff!important;
+ border-bottom:1px solid #b4e8ff;
+}
+
+#article-list>.article-list-row.notice {
+ background-color: #eaf2ff;
+}
+
+#article-list > .article-list-row.hot { 
+    background:-webkit-linear-gradient(22deg, #93c9ff 0%, #e8f2ff 10%, #badcff 30%,  #e8f2ff 55%, #deeaff 60%, #badcff 90%, #badcff 95%, #dce8ff 99.9%, #98cdff 100%); 
+}
+
+
+#article-list>.article-list-row>.item>.list-header>span {
+  background-color: #009bfc;
+}
+
+#article-list>.article-list-row>.item>.list-title>small.comment-count {
+  color: #62abff;
+}
+
+#article-list>.article-list-row>.item>.list-title>.list-writer.logged>span {
+  color: #006bfc;
+}
+
+.pagination>.active>a,
+.pagination>.active>a:focus,
+.pagination>.active>a:hover,
+.pagination>.active>span,
+.pagination>.active>span:focus,
+.pagination>.active>span:hover {
+  background-color: #62a6ff;
+  border-color: #62a6ff;
+}
+
+.pagination>li>a:focus,
+.pagination>li>a:hover,
+.pagination>li>span:focus,
+.pagination>li>span:hover {
+  background-color: #8bcaff;
+  color: #FFFFFF;
+}
+
+.pagination>li>a,
+.pagination>li>span {
+  color: #62a6ff;
+}
+
+#article-content-wrapper>.header {
+  border-top: 2px solid #aecaff;
+}
+
+#article-reply-area #reply-real-area .reply>.reply-header>.reply-writer.logged,
+#article-reply-area #reply-best-area .reply>.reply-header>.reply-writer.logged {
+  color: #006bfc;
+}
+#article-reply-area #reply-real-area .reply > .reply-header { 
+  background: #d4eeff; 
+}
+
+/* 베스트 댓글 */
+#article-reply-area #reply-best-area .reply > .reply-header { 
+  background: #d4eeff; 
+}
+
+#article-reply-area #reply-best-area .reply > .reply-content { 
+  background: aliceblue; 
+}
+
+#article-reply-area #reply-best-area .reply { 
+  border: 2px solid #8deaff; 
+}
+
+#article-reply-area #reply-best-area .label { 
+  color: #fff; 
+  background: #7beaff;
+  border: .5px dotted #8dd2ff;
+  animation: colors 2s infinite;
+}
+
+@keyframes colors {
+  0% {
+    background: #7beaff;
+  }
+  25% {
+    background: #83aefb;
+	}
+	50% {
+    background: #ae83fb;
+	}
+  75% {
+    background: #3aaefb;
+	}
+	100% {
+    background: #7beaff;
+	}
+}
+
+#article-neighbor-list>div>span.indicator {
+  color: #617bea;
+}
+
+#article-neighbor-list>div>a.subject {
+  color: #5671a9;
+}
+
+#article-neighbor-list>div>span.author {
+  color: #84b1de;
+}
+
+#article-info>h2 {
+  font-weight: bold;
+}
+
+#article-info>h2>span.category {
+  color: #006bfc !important;
+}
+
+#article-reply-area>.header h5 {
+  color: #006bfc;
+}
+
+#article-reply-area #reply-real-area .reply>.reply-header>.reply-writer.logged,
+#article-reply-area #reply-best-area .reply>.reply-header>.reply-writer.logged {
+  color: #005bfc;
+}
+
+.btn-primary {
+  background: #009bfc !important;
+}
+
+/* 모바일 */
+
+#header-top-notice{
+  padding-bottom: 25px;
+}
+
+#header-top-notice strong.notice-badge {
+  background: #009bfc;
+  border: 1px solid #009bfc;
+  border-radius: 3px
+}
+
+header {
+  background-color: #9dcfff;
+  border-bottom-color: #c4deff;
+  background-image: url(https://kingdohyeon.github.io/dogether/img/blosso.gif);
+  background-position-x: center;
+  background-repeat: space;
+}
+
+header>#header-area>a>h1 {
+  background: url('https://kingdohyeon.github.io/dogether/img/dgdg.png') no-repeat;
+  background-size: auto 30px;
+  background-repeat: no-repeat;
+  height: unset !important;
+}
+
+header>#header-area>#header-search-link {
+  color: #007bfc;
+}
+
+header>#header-area>#header-bar-link {
+  color: #007bfc;
+}
+
+header>#header-search-bar #header-search-btn {
+  color: #007bfc;
+}
+
+#article-list>.article-list-row.notice>.item>a.list-title>.list-writer {
+  display: none;
+}
+
+header>#header-search-bar #header-search-input {
+  border-color: #007bfc;
+}
+
+#article-list>.article-list-row.notice.active,#article-list>.article-list-row.active {
+ background-color: #eaf5ff !important;
+}
+
+#article-list>.article-list-row.notice:focus,#article-list>.article-list-row:focus,
+#article-list>.article-list-row.notice:hover,#article-list>.article-list-row:hover {
+ background-color: #f8fcff !important;
+}
+
+#article-list>.article-list-row>.item>a.list-title>small.comment-count {
+  color: #62abff;
+  letter-spacing: -0.05em !important;
+}
+
+#article-list>.article-list-row>.item>a.list-title>.list-writer.logged>span {
+  color: #006bfc;
+}
+
+#article-list #article-list-menu>.btn.best>.fa.fa-star:before,.btn-outline-success>i.fa.fa-thumbs-up:before,span.a-badge i.fa.fa-star:before {
+    content: "\f004"
+}
+
+#article-list #article-list-menu>.btn.best,.btn-outline-success {
+ border-color: #2da5ff;
+ color: #2da5ff;
+}
+
+span.a-badge i.fa.fa-star {
+ color: #9dceff;
+ animation: rotate 1.5s infinite;
+}
+
+#favoriteDropdown .fa-star:before {
+  content:  url(https://kingdohyeon.github.io/dogether/img/StudentDo15.png);
+  filter:drop-shadow(1px 1px 1px rgba(1,0,0,0));
+  position: relative;
+  top: 3px;
+}
+
+#addFavoriteBtn .fa-star:before {
+  content:  url(https://kingdohyeon.github.io/dogether/img/NewBorn15.png);
+  filter:drop-shadow(1px 1px 1px rgba(1,0,0,0));
+}
+
+a.board-right-menu .fa-twitch:before {
+  position: relative;
+  top: 0.5px;
+}
+
+#goClipBtn .fa-film:before {
+  position: relative;
+  bottom: 0.9px;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(-10deg);
+  }
+  50% {
+    transform: rotate(10deg);
+  }
+  100% {
+    transform: rotate(-10deg);
+  }
+}
+
+#nav#nav>.nav-header {
+  background-color: #62abff;
+  color: white;
+}
+
+#nav #notification-badge {
+  background: #0a7bfc!important;;
+}
+
+#nav#nav>.nav-menu-area sup {
+  color: lightskyblue!important;;
+}
+
+#board-info {
+  border-top: 4px solid #c4deff;
+  border-bottom: 2px solid #c4deff;
+}
+
+#board-info #board-info-profile-img {
+  border-radius:50%;
+  border:1px solid #D6F0FF;
+  box-shadow: 2px 1px 2px 0.1px rgba(0, 0, 0, 0.15);
+}
+
+#board-info h1>a {
+  color: #3478ff;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.badge {
+    background-color: #62a8ff;
+}
+
+#board-info h1 > a.badge.badge-live::after { 
+    content: " 뱅송중"; 
+}
+
+#board-info h1 > a.badge.badge-live { 
+    background: #3aaefb;
+    border: 2px dotted aliceblue;
+}
+
+#board-info #viewers-area {
+/*     vertical-align: bottom; */
+    position: relative;
+    top: 3px;
+}
+
+#board-info #viewers-area #viewers:before {
+    content: "자유로운 도비 ";
+    cursor: text;
+    vertical-align: top;
+    height:18px;
+}
+
+#board-info #viewers-area #viewers:after {
+    content: "명";
+    cursor: text;
+    vertical-align: top;
+    height:18px;
+}
+
+#board-info #viewers-area .fa-user:before {
+    color: rgba(10,59,84,0);
+    content: url(https://static-cdn.jtvnw.net/badges/v1/865685a0-f9a2-422e-8e7d-8970a6706481/1);
+    position: relative;
+    bottom: 1px;
+}
+
+#board-info #viewers-area #viewers {
+    vertical-align: top;
+}
+
+#board-info > a.board-right-menu {
+    padding: 12px 6px 12px 6px;
+    border: none;
+    color: #7bc5fc;
+}
+
