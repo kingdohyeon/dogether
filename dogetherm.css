@@ -294,9 +294,15 @@ span.a-badge i.fa.fa-star {
   top: 3px;
 }
 
+/* 우측 상단 메뉴 */
 #addFavoriteBtn .fa-star:before {
   content:  url(https://kingdohyeon.github.io/dogether/img/NewBorn15.png);
   filter:drop-shadow(1px 1px 1px rgba(1,0,0,0));
+}
+
+#addFavoriteBtn small {
+  position: relative;
+  bottom: 1px;
 }
 
 a.board-right-menu .fa-twitch:before {
@@ -306,7 +312,7 @@ a.board-right-menu .fa-twitch:before {
 
 #goClipBtn .fa-film:before {
   position: relative;
-  bottom: 0.9px;
+  bottom: 1px;
 }
 
 @keyframes rotate {
