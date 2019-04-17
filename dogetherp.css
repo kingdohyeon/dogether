@@ -2,7 +2,7 @@
 /*
 Developer: SOJIN KIM 김소진
 e-mail: sojinkeem@gmail.com / sojinkeem@naver.com
-Updated: Mar 25, 2019 for DOHYEON KIM 김도현
+Updated: APR 17, 2019 for DOHYEON KIM 김도현
 */
 
 /* 전체 배경*/
@@ -281,7 +281,7 @@ header #header-bar>.row,
 #article-list #article-list-category>a.active,#article-list #article-list-category>a:hover {
  //background:#de8f85;
  color:#62aeff!important;
- border-bottom:1px solid #b4e8ff;
+ border-bottom:1px solid #bbd4ff;
 }
 
 /* 공지 색상 설정*/
