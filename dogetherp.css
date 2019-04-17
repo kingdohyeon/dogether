@@ -43,7 +43,7 @@ header #header-bar>.row {
 
 /* 새 알림 배지 */
 #header-menu-right #notification-badge {
-  background: #0a61ea!important;;
+  background: #3757d4!important;;
 }
 
 /* 헤더 배너 도게더 로고 설정 */
@@ -80,7 +80,7 @@ header #header-bar #header-top-notice strong.notice-badge {
 
 /* 헤더 favicon 아이콘 색상 */
 header #header-bar .fa {
-  color: #009bfc;
+  color: #3b57a1;
 }
 
 /* 헤더 즐겨찾기 favicon */
