@@ -88,7 +88,9 @@ body {
 /* 제목 아래 정보 (n일전, 댓글수 추천수, 본 횟수) */
 #article-content-wrapper>.header {
 /*   border-top: 2px dashed #6C6EB0; */
-  background: #eaf2fa;
+/*   background: #eaf2fa; */
+  background: #e8ecfa;
+  border-bottom: 1px solid #deecff;
 }
 
 /* 댓글쓴이 정보 */
