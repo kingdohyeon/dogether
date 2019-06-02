@@ -2,7 +2,7 @@
 /*
 Developer: SOJIN KIM 김소진
 e-mail: sojinkeem@gmail.com / sojinkeem@naver.com
-Updated: Apr 17, 2019 for DOHYEON KIM 김도현
+Updated: June 2, 2019 for DOHYEON KIM 김도현
 */
 
 /* 전체 배경*/
@@ -51,7 +51,7 @@ header .row>div:nth-child(1)>a {
   display: block;
   width: 200px;
   height: 59px;
-  background: url(https://kingdohyeon.github.io/dogether/img/dgdg2.png) no-repeat;
+  background: url(https://kingdohyeon.github.io/dogether/img/dgdg3.png) no-repeat;
   background-size: auto 59px;
   background-position: 7px center;
 }
