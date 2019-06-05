@@ -59,7 +59,7 @@ header .row>div:nth-child(1)>a {
   display: block;
   width: 210px;
   height: 70px;
-  background: var(--img-logo) no-repeat;
+  background: url(https://kingdohyeon.github.io/dogether/img/dgdg3l.png) no-repeat;
   background-size: auto 62px;
   background-position: 7px center;
 }
