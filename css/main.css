@@ -275,20 +275,15 @@ span.a-badge i.fa.fa-star {
  color: #fff;
 }
 
-/* 게시글 내 추천 버튼 크기 */
-.btn.btn.btn-outline-success.vote-btn {
-  height: 45px;
-  width: 100px;
-  font-size: 15px;
-}
-
-/* 비추천 버튼 사라지게 하기 */
+/* 게시글 내 추천 비추천 버튼 */
+.btn.btn.btn-outline-success.vote-btn, 
 #article-list #article-list-menu>.btn.best, .btn-outline-primary {
+  border-color: var(--color16);
+  background-color: var(--color5);
   height: 45px;
   width: 100px;
   font-size: 15px;
 }
-
 
 /* 하단 설정*/
 /* 좌측 하단 인기글 아이콘 설정 */
@@ -301,6 +296,9 @@ span.a-badge i.fa.fa-star {
 #article-list #article-list-menu>.btn.best, .btn-outline-success {
  border-color: var(--color16);
  color: var(--color16);
+ background: #fff;
+ height: 35px;
+ width: 90px;
 }
 
 /* 글 쓰기, 댓글 쓰기 버튼 */
