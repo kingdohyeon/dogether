@@ -279,7 +279,6 @@ span.a-badge i.fa.fa-star {
 .btn.btn.btn-outline-success.vote-btn, 
 #article-list #article-list-menu>.btn.best, .btn-outline-primary {
   border-color: var(--color16);
-  background-color: var(--color5);
   height: 45px;
   width: 100px;
   font-size: 15px;
