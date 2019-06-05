@@ -1,0 +1,313 @@
+﻿@import url("https://kingdohyeon.github.io/dogether/css/NanumGothic.css");
+@import url("https://kingdohyeon.github.io/dogether/css/main.css");
+
+/*
+Developer: SOJIN KIM 김소진 (for DOHYEON KIM 김도현)
+e-mail: sojinkeem@gmail.com / sojinkeem@naver.com
+Updated: June 6, 2019
+*/
+
+/* 전체 배경*/
+html {
+  background: linear-gradient(to bottom, #4daed4, #4dc5de, #e1c8aa, #dec8b2); 
+  height: auto !important;
+}
+
+body {
+  font-family: 'Nanum Gothic', sans-serif;
+  background-image: 
+	  url(https://kingdohyeon.github.io/dogether/img/stars.png),
+	  url(https://kingdohyeon.github.io/dogether/img/stars.png);
+  background-position-x: center;
+}
+
+header {
+/*   background-image: var(--img-hdbg); */
+  background-repeat: no-repeat;
+  background-position-x: center;
+/*   background-attachment: fixed; */
+}
+
+/* 전체 쉐도우 */
+header #header-bar>.row,
+#main .menu-wrapper,
+#main #main-content>div.frame {
+  box-shadow: 3px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* 상단 Nav Bar(최근, 즐겨찾기, 놀이터, 광고, 쪽지, 프로필) */
+header #header-bar>.row {
+  border: 3px solid var(--color1);
+}
+
+/* 좌측메뉴, 메인블록 테두리 */
+#main .menu-wrapper,
+#main #main-content>div.frame {
+  border: 3px solid var(--color1);
+  border-right: none;
+  border-bottom: none;
+  border-left: none;
+}
+
+/* 새 알림 배지 */
+#header-menu-right #notification-badge {
+  background: var(--color4)!important;;
+}
+
+/* 헤더 배너 도게더 로고 설정 */
+header .row>div:nth-child(1)>a {
+  display: block;
+  width: 210px;
+  height: 70px;
+  background: var(--img-logo) no-repeat;
+  background-size: auto 62px;
+  background-position: 7px center;
+}
+
+/* 기존 트게더 로고 제거 */
+header .row>div:nth-child(1)>a>img {
+  display: block;
+  filter: grayscale(100%);
+  opacity: 0;
+}
+
+/* 트게더 검색창 테두리 */
+header #right-search-form>input[type='text'] {
+  border: 3px solid var(--color1);
+  position: relative;
+  top: 12.5px;
+  height: 39px;
+  width: 180px;
+}
+
+/* 트게더 검색창 돋보기 버튼 */
+header #right-search-form>#right-search-btn {
+  color: var(--color1);
+  position: relative;
+  top: 12.5px;
+}
+
+/* 헤더 광고 배경색 */
+header #header-bar #header-top-notice strong.notice-badge {
+  background: var(--color3);
+}
+
+/* 헤더 favicon 아이콘 색상 */
+header #header-bar .fa {
+  color: var(--color1);
+}
+
+/* 헤더 즐겨찾기 favicon */
+#favoriteDropdown .fa-star:before {
+  content:  var(--img-studo);
+  filter:drop-shadow(1px 1px 1px rgba(1,0,0,0));
+  position: relative;
+  top: 3.3px;
+}
+
+/* 메인 즐겨찾기 favicon */
+#addFavoriteBtn .fa-star:before {
+  content:  var(--img-newdo);
+  filter:drop-shadow(1px 1px 1px rgba(1,0,0,0));
+  position: relative;
+  top: 3.5px;
+}
+
+/* 프로필 드롭다운 */
+.dropdown.open .dropdown-menu,
+.input-group-btn.open .dropdown-menu {
+	opacity: unset;
+	transform: unset;
+	box-shadow: 0 2px 2px rgba(0,0,0,.2);
+}
+
+.dropdown .dropdown-menu,
+.input-group-btn .dropdown-menu {
+	display: block !important;
+	opacity: 0;
+	transform: scale(0);
+	transform-origin: top;
+	transition: all 0.3s cubic-bezier(0.2, 1.5, 0, 1);
+}
+
+.dropdown-menu>li>a {
+  color: var(--color6)!important;;
+}
+
+.dropdown-menu>li>a:hover {
+	background: transparent;
+	transform: scaleX(1.03);
+}
+
+/* 좌측 메뉴 (트게더 전체메뉴, 유용한링크, 트위치 스케쥴) */
+#main .menu-wrapper>.header {
+  background: var(--color1);
+}
+
+.fa-navicon:before,
+.fa-reorder:before,
+.fa-bars:before {
+  color: var(--color2);
+}
+
+.fa-square:before {
+  color: #081a53;
+}
+
+/* 좌측메뉴 */
+#main .menu-wrapper {
+  border: none;
+}
+
+#main .menu-wrapper>a:hover {
+  background: #fff;
+  transform: scaleX(1.03);
+}
+
+/* 좌측메뉴 숏컷링크 색상 (A B H O P W Q T N E) */
+#main .menu-wrapper>a>em {
+  color: var(--color3);
+}
+
+/* 좌측메뉴 메뉴사이의 공간 색상 */
+#main .menu-wrapper .spacer {
+  background: transparent;
+  height: 0.2em;
+}
+
+/* BETA 등 표시*/
+#main>div>#main-menu sup {
+  color: var(--color1)!important;
+}
+
+/* 도게더 정보 (도현_ 순위 등등) */
+#board-info {
+ display:flex;
+ border-right:0;
+ border-radius:6px;
+ overflow:inherit;
+ padding: 20px 14px 20px 14px;
+ background:#fff;
+ height:70px;
+ margin-top: .1em;
+ margin-bottom: .75em;
+}
+
+#board-info h1 {
+ //font-size:18px;
+  font-weight: bold;
+  margin-top: .1em;
+  border-bottom:0;
+  color: red;
+}
+
+#board-info h1>a {
+ //font-size:18px;
+  margin-top: .1em;
+  border-bottom:0;
+  color: var(--color15);
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+/* 프로필 사진 */
+#board-info #board-info-profile-img {
+ border-radius:50%;
+ border:2px solid #d6e4ff;
+ float:left!important;
+ margin-right:10px;
+ margin-top:-10px;
+ height:60px;
+ width:60px;
+ box-shadow: 2px 1px 5px 0.1px rgba(0, 0, 0, 0.15);
+}
+
+#board-info #viewers-area .fa-user:before {
+    color: rgba(10,59,84,0);
+    content: var(--img-badge);
+}
+
+#board-info #viewers-area #viewers {
+    vertical-align: top;
+}
+
+/* 메인블록 상단 우측 메뉴 */
+#board-info #board-info-bottom  {
+ flex:auto;
+ text-align:right;
+}
+
+/* 메인블록 상단 우측 메뉴 (즐겨찾기, 프로필, 채널, 클립) */
+#board-info #board-info-bottom a {
+  display:inline-block;
+  padding:10px 7px 10px 7px;
+  border: 0;
+  color: var(--color6);
+}
+
+/* 글 목록 설정 */
+/* 상단 메뉴 전체 설정*/
+#article-list #article-list-category {
+  border-top: 3px solid var(--color1);
+  background: var(--color7);
+  margin-top: .5em;
+}
+
+/* 인기글 그라데이션 */
+#article-list > .article-list-row.hot { 
+    background:-webkit-linear-gradient(22deg, #bff2ff 10%, #eaf8ff 20%, #daf8ff 70%, #baeaff 100%);
+}
+
+/* 마우스 올릴 때 색상 설정*/
+#article-list>.article-list-row.notice:hover,#article-list>.article-list-row:hover {
+ background-color: var(--color10) !important;
+}
+
+
+/* 게시글 내 설정 */
+/* 제목 아래 정보 (n일전, 댓글수 추천수, 본 횟수) */
+#article-content-wrapper>.header {
+  border-top: 2px solid #88d7ea;
+}
+
+#article-info {
+  padding-top: 5.2px;
+}
+
+/* 좌측 메뉴 패딩(바깥쪽 여백) 설정 */
+#main .menu-wrapper>a {
+  padding: 0.5em 1.4em 0.5em 0.7em !important;
+}
+
+/* 링크 색상 설정 */
+a {
+  color: var(--color14);
+}
+
+/* 공지 배지 설정 */
+span.a-badge i.fa.fa-info-circle {
+  color: var(--color13);
+}
+
+/* footer */
+/* 게시글 밑 글 목록 */
+#article-list>.article-list-row {
+  border-right: none;
+}
+
+/* 하단 메뉴 (인기글, 1234페이지, 글쓰기) */
+#article-list #article-list-menu {
+  box-sizing: border-box;
+  width: unset;
+  margin: 20px;
+}
+
+/* 하단 도게더 내의 글 목록 검색 */
+#article-list #boardSearchForm {
+  padding-bottom: 20px;
+  height: unset;
+}
+
+
+
+
+
