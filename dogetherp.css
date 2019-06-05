@@ -211,13 +211,13 @@ header #header-bar .fa {
 
 /* 프로필 사진 */
 #board-info #board-info-profile-img {
- border-radius:50%;
- border:2px solid #d6e4ff;
- float:left!important;
- margin-right:10px;
- margin-top:-10px;
- height:60px;
- width:60px;
+ border-radius: 50%;
+ border: 1px solid var(--color19);
+ float: left!important;
+ margin-right: 10px;
+ margin-top: -10px;
+ height: 60px;
+ width: 60px;
  box-shadow: 2px 1px 5px 0.1px rgba(0, 0, 0, 0.15);
 }
 
