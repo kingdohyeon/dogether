@@ -278,14 +278,16 @@ span.a-badge i.fa.fa-star {
 /* 게시글 내 추천 버튼 크기 */
 .btn.btn.btn-outline-success.vote-btn {
   height: 45px;
-  width: 90px;
+  width: 100px;
   font-size: 15px;
 }
 
 /* 비추천 버튼 사라지게 하기 */
-/* #article-list #article-list-menu>.btn.best, .btn-outline-primary {
-  display: none;
-} */
+#article-list #article-list-menu>.btn.best, .btn-outline-primary {
+  height: 45px;
+  width: 100px;
+  font-size: 15px;
+}
 
 
 /* 하단 설정*/
