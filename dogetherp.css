@@ -1,29 +1,28 @@
 ﻿@import url("https://kingdohyeon.github.io/dogether/css/NanumGothic.css");
+﻿@import url("https://kingdohyeon.github.io/dogether/css/main.css");
+
 /*
-Developer: SOJIN KIM 김소진
+Developer: SOJIN KIM 김소진 (for DOHYEON KIM 김도현)
 e-mail: sojinkeem@gmail.com / sojinkeem@naver.com
-Updated: June 2, 2019 for DOHYEON KIM 김도현
+Updated: June 5, 2019
 */
 
 /* 전체 배경*/
 html {
-  background: linear-gradient(to bottom, #373b65, #84b1de); 
+  background: linear-gradient(to bottom, #4daed4, #4dc5de, #e1c8aa, #dec8b2); 
   height: auto !important;
 }
 
 body {
-  letter-spacing: -0.05em !important;
-  background: transparent;
   font-family: 'Nanum Gothic', sans-serif;
   background-image: 
 	  url(https://kingdohyeon.github.io/dogether/img/stars.png),
 	  url(https://kingdohyeon.github.io/dogether/img/stars.png);
   background-position-x: center;
-/*   background-repeat: no-repeat; */
 }
 
 header {
-  background-image: url(https://kingdohyeon.github.io/dogether/img/headercharacter.png);
+/*   background-image: var(--img-hdbg); */
   background-repeat: no-repeat;
   background-position-x: center;
 /*   background-attachment: fixed; */
@@ -36,27 +35,36 @@ header #header-bar>.row,
   box-shadow: 3px 0px 10px rgba(0, 0, 0, 0.2);
 }
 
-/* 로고 및 Nav Bar (최근, 즐겨찾기, 놀이터, 광고, 쪽지, 프로필) */
+/* 상단 Nav Bar(최근, 즐겨찾기, 놀이터, 광고, 쪽지, 프로필) */
 header #header-bar>.row {
-  border: 3px solid #004bfc;
+  border: 3px solid var(--color1);
+}
+
+/* 좌측메뉴, 메인블록 테두리 */
+#main .menu-wrapper,
+#main #main-content>div.frame {
+  border: 3px solid var(--color1);
+  border-right: none;
+  border-bottom: none;
+  border-left: none;
 }
 
 /* 새 알림 배지 */
 #header-menu-right #notification-badge {
-  background: #3757d4!important;;
+  background: var(--color4)!important;;
 }
 
 /* 헤더 배너 도게더 로고 설정 */
 header .row>div:nth-child(1)>a {
   display: block;
-  width: 200px;
-  height: 59px;
-  background: url(https://kingdohyeon.github.io/dogether/img/dgdg3.png) no-repeat;
-  background-size: auto 59px;
+  width: 210px;
+  height: 70px;
+  background: var(--img-logo) no-repeat;
+  background-size: auto 62px;
   background-position: 7px center;
 }
 
-/* 기존 트게더 로고 설정 */
+/* 기존 트게더 로고 제거 */
 header .row>div:nth-child(1)>a>img {
   display: block;
   filter: grayscale(100%);
@@ -65,27 +73,33 @@ header .row>div:nth-child(1)>a>img {
 
 /* 트게더 검색창 테두리 */
 header #right-search-form>input[type='text'] {
-  border: 3px solid #3b579f;
+  border: 3px solid var(--color1);
+  position: relative;
+  top: 12.5px;
+  height: 39px;
+  width: 180px;
 }
 
 /* 트게더 검색창 돋보기 버튼 */
 header #right-search-form>#right-search-btn {
-  color: #3b579f;
+  color: var(--color1);
+  position: relative;
+  top: 12.5px;
 }
 
 /* 헤더 광고 배경색 */
 header #header-bar #header-top-notice strong.notice-badge {
-  background: #3A4F82;
+  background: var(--color3);
 }
 
 /* 헤더 favicon 아이콘 색상 */
 header #header-bar .fa {
-  color: #3b57a1;
+  color: var(--color1);
 }
 
 /* 헤더 즐겨찾기 favicon */
 #favoriteDropdown .fa-star:before {
-  content:  url(https://kingdohyeon.github.io/dogether/img/StudentDo15.png);
+  content:  var(--img-studo);
   filter:drop-shadow(1px 1px 1px rgba(1,0,0,0));
   position: relative;
   top: 3.3px;
@@ -93,7 +107,7 @@ header #header-bar .fa {
 
 /* 메인 즐겨찾기 favicon */
 #addFavoriteBtn .fa-star:before {
-  content:  url(https://kingdohyeon.github.io/dogether/img/NewBorn15.png);
+  content:  var(--img-newdo);
   filter:drop-shadow(1px 1px 1px rgba(1,0,0,0));
   position: relative;
   top: 3.5px;
@@ -116,6 +130,10 @@ header #header-bar .fa {
 	transition: all 0.3s cubic-bezier(0.2, 1.5, 0, 1);
 }
 
+.dropdown-menu>li>a {
+  color: var(--color6)!important;;
+}
+
 .dropdown-menu>li>a:hover {
 	background: transparent;
 	transform: scaleX(1.03);
@@ -123,27 +141,17 @@ header #header-bar .fa {
 
 /* 좌측 메뉴 (트게더 전체메뉴, 유용한링크, 트위치 스케쥴) */
 #main .menu-wrapper>.header {
-  background: #3a4f82;
+  background: var(--color1);
 }
 
 .fa-navicon:before,
 .fa-reorder:before,
 .fa-bars:before {
-  color: #6f7ab0;
+  color: var(--color2);
 }
 
 .fa-square:before {
   color: #081a53;
-}
-
-/* 상단 Nav Bar, 좌측메뉴, 메인블록 */
-header #header-bar>.row,
-#main .menu-wrapper,
-#main #main-content>div.frame {
-  border-top: 3px solid #6C6EB0;
-  border-right: none;
-  border-bottom: none;
-  border-left: none;
 }
 
 /* 좌측메뉴 */
@@ -151,9 +159,14 @@ header #header-bar>.row,
   border: none;
 }
 
+#main .menu-wrapper>a:hover {
+  background: #fff;
+  transform: scaleX(1.03);
+}
+
 /* 좌측메뉴 숏컷링크 색상 (A B H O P W Q T N E) */
 #main .menu-wrapper>a>em {
-  color: #6C6EB0;
+  color: var(--color3);
 }
 
 /* 좌측메뉴 메뉴사이의 공간 색상 */
@@ -164,7 +177,7 @@ header #header-bar>.row,
 
 /* BETA 등 표시*/
 #main>div>#main-menu sup {
-  color: lightskyblue!important;;
+  color: var(--color1)!important;
 }
 
 /* 도게더 정보 (도현_ 순위 등등) */
@@ -192,10 +205,11 @@ header #header-bar>.row,
  //font-size:18px;
   margin-top: .1em;
   border-bottom:0;
-  color: #627bf8;
+  color: var(--color15);
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
 }
 
+/* 프로필 사진 */
 #board-info #board-info-profile-img {
  border-radius:50%;
  border:2px solid #d6e4ff;
@@ -207,41 +221,9 @@ header #header-bar>.row,
  box-shadow: 2px 1px 5px 0.1px rgba(0, 0, 0, 0.15);
 }
 
-.badge {
-    background-color: #629ffc;
-}
-
-/* live 방송 배지 */
-#board-info h1 > a.badge.badge-live::after { 
-    content: " 뱅송중"; 
-}
-
-#board-info h1 > a.badge.badge-live { 
-    background: #7babfb;
-    border: 2px dotted aliceblue;
-}
-
-#board-info #viewers-area {
-/*     vertical-align: bottom; */
-    position: relative;
-    top: 1px;
-}
-
-#board-info #viewers-area #viewers:before {
-    content: "자유로운 도비 ";
-    cursor: text;
-    vertical-align: top;
-}
-
-#board-info #viewers-area #viewers:after {
-    content: "명";
-    cursor: text;
-    vertical-align: top;
-}
-
 #board-info #viewers-area .fa-user:before {
     color: rgba(10,59,84,0);
-    content: url(https://static-cdn.jtvnw.net/badges/v1/865685a0-f9a2-422e-8e7d-8970a6706481/1);
+    content: var(--img-badge);
 }
 
 #board-info #viewers-area #viewers {
@@ -259,187 +241,36 @@ header #header-bar>.row,
   display:inline-block;
   padding:10px 7px 10px 7px;
   border: 0;
-  color: #1961AE;
+  color: var(--color6);
 }
 
 /* 글 목록 설정 */
 /* 상단 메뉴 전체 설정*/
 #article-list #article-list-category {
-  border-top: 3px solid #5D74A5;
- background: #eaf2ff;
+  border-top: 3px solid var(--color1);
+  background: var(--color7);
   margin-top: .5em;
 }
 
-/* 상단 메뉴 좌측(홈 자유게시판 클립노트 DM 게임추천 팬아트,짤) */
-#article-list #article-list-category>a {
-  background: #eaf2ff;
-  height: 35px;
-  color: #5671a9!important;
-}
-
-/* 상단 메뉴 선택, 마우스 올릴 때 */
-#article-list #article-list-category>a.active,#article-list #article-list-category>a:hover {
- //background:#de8f85;
- color:#62aeff!important;
- border-bottom:1px solid #bbd4ff;
-}
-
-/* 공지 색상 설정*/
-#article-list>.article-list-row.notice {
- background-color: #eaf2ff;
-}
-
+/* 인기글 그라데이션 */
 #article-list > .article-list-row.hot { 
-    background:-webkit-linear-gradient(22deg, #93c9ff 0%, #e8f2ff 10%, #badcff 30%, 
-      #e8f2ff 55%, #deeaff 60%, #badcff 90%, #badcff 95%, #dce8ff 99.9%, #98cdff 100%); 
+    background:-webkit-linear-gradient(22deg, #bff2ff 10%, #eaf8ff 20%, #daf8ff 70%, #baeaff 100%);
 }
 
 /* 마우스 올릴 때 색상 설정*/
 #article-list>.article-list-row.notice:hover,#article-list>.article-list-row:hover {
- background-color: #def2ff !important;
+ background-color: var(--color10) !important;
 }
 
-/* 선택됐을 때 색상 설정 */
-#article-list>.article-list-row.notice.active,#article-list>.article-list-row.active {
- background-color: #eaf5ff !important;
-}
-
-/* 추천 수 배지 */
-#article-list>.article-list-row>.item>.list-header>span {
-  background-color: #629ffc;
-  //border: 3px solid #007bfc;
-}
-
-/* 댓글 수*/
-#article-list>.article-list-row>.item>.list-title>small.comment-count {
-  color: #6297fc;
-}
-
-/* 글쓴이 탭 너비*/
-#article-list>.article-list-row>.item>.list-title>.list-writer>span {
-  width: 120px !important;
-}
-
-/* 글쓴이 표시 색상*/
-#article-list>.article-list-row>.item>.list-title>.list-writer.logged>span {
-  color: #005bea;
-}
-
-/* 하단 페이지 네비 */
-.pagination>.active>a,
-.pagination>.active>a:focus,
-.pagination>.active>a:hover,
-.pagination>.active>span,
-.pagination>.active>span:focus,
-.pagination>.active>span:hover {
-  background-color: #80bdfe;
-  border-color: #80bdfe;
-}
-
-.pagination>li>a:focus,
-.pagination>li>a:hover,
-.pagination>li>span:focus,
-.pagination>li>span:hover {
-  background-color: #91d9f1;
-  color: #FFFFFF;
-}
-
-.pagination>li>a,
-.pagination>li>span {
-  color: #007bea;
-}
 
 /* 게시글 내 설정 */
 /* 제목 아래 정보 (n일전, 댓글수 추천수, 본 횟수) */
 #article-content-wrapper>.header {
-  border-top: 2px solid #6C6EB0;
-}
-
-/* 댓글쓴이 정보*/
-#article-reply-area #reply-real-area .reply>.reply-header>.reply-writer.logged,
-#article-reply-area #reply-best-area .reply>.reply-header>.reply-writer.logged {
-  color: #617bea;
-}
-#article-reply-area #reply-real-area .reply > .reply-header { 
-  background: #d4e6fc; 
-}
-
-/* 베스트 댓글 */
-#article-reply-area #reply-best-area .reply > .reply-header { 
-  background: #d4eeff; 
-}
-
-#article-reply-area #reply-best-area .reply > .reply-content { 
-  background: aliceblue; 
-}
-
-#article-reply-area #reply-best-area .reply { 
-  border: 2px solid #8deaff; 
-}
-
-#article-reply-area #reply-best-area .label { 
-  color: #fff; 
-  background: #7beaff;
-  border: .5px dotted #8dd2ff;
-  animation: colors 2s infinite;
-}
-
-@keyframes colors {
-  0% {
-    background: #7beaff;
-  }
-  25% {
-    background: #83aefb;
-	}
-	50% {
-    background: #ae83fb;
-	}
-  75% {
-    background: #3aaefb;
-	}
-	100% {
-    background: #7beaff;
-	}
-}
-
-/* 새 댓글 버튼 */
-#loadNewCommentsBtn {
-  background: #62abea;
-}
-
-/* 상하글 인디케이터 */
-/* 윗글 아랫글 */
-#article-neighbor-list>div>span.indicator {
-  color: #617bea;
-}
-
-/* 글 제목 */
-#article-neighbor-list>div>a.subject {
-  color: #5671a9;
-}
-
-/* 작성자 */
-#article-neighbor-list>div>span.author {
-  color: #84b1de;
+  border-top: 2px solid #88d7ea;
 }
 
 #article-info {
   padding-top: 5.2px;
-}
-
-/* 게시글 정보 (게시판 | 글 제목) */
-#article-info>h2 {
-  font-weight: bold;
-}
-
-/* 게시판 정보 */
-#article-info>h2>span.category {
-  color: #5a7bea !important;
-}
-
-/*게시글 댓글 정보 색상 (댓글 n개) */
-#article-reply-area>.header h5 {
-  color: #6297f2;
 }
 
 /* 좌측 메뉴 패딩(바깥쪽 여백) 설정 */
@@ -449,48 +280,18 @@ header #header-bar>.row,
 
 /* 링크 색상 설정 */
 a {
-  color: #007bfc;
+  color: var(--color14);
 }
 
 /* 공지 배지 설정 */
 span.a-badge i.fa.fa-info-circle {
-  color: #5671A9;
+  color: var(--color13);
 }
 
 /* footer */
 /* 게시글 밑 글 목록 */
 #article-list>.article-list-row {
   border-right: none;
-}
-
-/* 인기글 아이콘 설정 */
-#article-list #article-list-menu>.btn.best>.fa.fa-star:before,
-.btn-outline-success>i.fa.fa-thumbs-up:before,span.a-badge i.fa.fa-star:before {
-    content: "\f004"
-}
-
-/* 인기글 버튼 색상 설정*/
-#article-list #article-list-menu>.btn.best,.btn-outline-success {
- border-color: #2da5ff;
- color: #2da5ff;
-}
-
-/* 글 목록 인기글 아이콘 색상 설정*/
-span.a-badge i.fa.fa-star {
- color: #9dceff;
- animation: shake 1.5s infinite;
-}
-
-@keyframes shake {
-  0% {
-    transform: rotate(-10deg);
-  }
-  50% {
-    transform: rotate(10deg);
-  }
-  100% {
-    transform: rotate(-10deg);
-  }
 }
 
 /* 하단 메뉴 (인기글, 1234페이지, 글쓰기) */
@@ -505,26 +306,5 @@ span.a-badge i.fa.fa-star {
   padding-bottom: 20px;
   height: unset;
 }
-
-/* 글 쓰기, 댓글 쓰기 버튼 */
-.btn-primary {
-  background: #65a0ea !important;
-  border: 1px solid #65a0ea;
-}
-
-/*스크롤*/
-#movetotop img{
-  display:none
-}
-
-#movetotop{
-  display: inline-block;
-  opacity: 1;
-  background: url(https://kingdohyeon.github.io/dogether/img/Disco.png);    
-  width: 70px;  
-  height: 70px;
-  background-size: contain;
-}
-
 
 
