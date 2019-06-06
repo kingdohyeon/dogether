@@ -177,7 +177,7 @@ a.board-right-menu .fa-twitch:before {
 
 /* 우측 메뉴 (즐겨찾기 정보 트위치 클립) */
 #board-info > a.board-right-menu {
-    padding: 12px 10px;
+    padding: 12px 8px;
     border: none;
     color: var(--color5);
     float: right;
