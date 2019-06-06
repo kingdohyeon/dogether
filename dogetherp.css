@@ -194,7 +194,6 @@ header #header-bar .fa {
 }
 
 #board-info h1 {
- //font-size:18px;
   font-weight: bold;
   margin-top: .1em;
   border-bottom:0;
@@ -202,7 +201,6 @@ header #header-bar .fa {
 }
 
 #board-info h1>a {
- //font-size:18px;
   margin-top: .1em;
   border-bottom:0;
   color: var(--color15);
