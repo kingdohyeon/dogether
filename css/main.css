@@ -100,7 +100,6 @@ body {
 
 /* 자유로운 도비 */
 #board-info #viewers-area {
-/*     vertical-align: bottom; */
     position: relative;
     top: 1px;
 }
@@ -144,7 +143,6 @@ body {
 
 /* 상단 메뉴 카테고리 선택, 마우스 올릴 때 */
 #article-list #article-list-category>a.active, #article-list #article-list-category>a:hover {
- //background:#de8f85;
  color: var(--color9)!important;
  border-bottom:1px solid var(--color9);
 }
@@ -183,7 +181,6 @@ span.a-badge i.fa.fa-star {
 /* 추천 수 배지 */
 #article-list>.article-list-row>.item>.list-header>span {
   background-color: var(--color9);
-  //border: 3px solid #007bfc;
 }
 
 /* 댓글수 */
@@ -336,7 +333,6 @@ span.a-badge i.fa.fa-star {
 /* 하단 페이지 숫자 */
 .pagination>li>a,
 .pagination>li>span {
-/*  color: #007bea;  */
   color: #62a6ff;
 }
 
