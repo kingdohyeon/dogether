@@ -262,7 +262,7 @@ span.a-badge i.fa.fa-star {
 }
 
 /* 추천 색상 */
-#article-list #article-list-menu>.btn.best, .btn-outline-success:hover {
+.btn.best, .btn-outline-success:hover {
  border-color: var(--color16);
  background-color: var(--color5);
  color: #fff;
@@ -277,7 +277,7 @@ span.a-badge i.fa.fa-star {
 }
 
 /* 게시글 내 비추천 버튼 */
-#article-list #article-list-menu>.btn.best, .btn-outline-primary {
+.btn.best, .btn-outline-primary {
   border-color: var(--color6);
   height: 45px;
   width: 100px;
