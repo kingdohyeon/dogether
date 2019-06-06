@@ -9,7 +9,7 @@ Updated: June 5, 2019
 /* @todo: replace to thumbnail for optimizing data */
 :root {
     --color: #99ccff;
-    --color0: #4daed4; /* 모바일 헤더 */
+    --color0: #4db9de; /* 모바일 헤더 */
     --color1: #7DCDE9; /* 테두리, 헤더 favicon, 상단 검색창, 좌측 메뉴 배경(트게더 전체메뉴, 유용한링크, 트위치 스케쥴)*/
     --color2: #049ADF; /* 좌측 메뉴 아이콘 */
     --color3: #47A9D3; /* 좌측 메뉴 알파벳, 헤더 광고 배경 */
