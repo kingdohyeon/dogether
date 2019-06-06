@@ -1,12 +1,10 @@
 ﻿
-
 /*
 Developer: SOJIN KIM 김소진 (for DOHYEON KIM 김도현)
 e-mail: sojinkeem@gmail.com / sojinkeem@naver.com
 Updated: June 5, 2019 
 */
 
-/* @todo: replace to thumbnail for optimizing data */
 :root {
     --color: #99ccff;
     --color0: #4db9de; /* 모바일 헤더 */
