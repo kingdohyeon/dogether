@@ -129,6 +129,7 @@ a.board-right-menu .fa-twitch:before {
   position: absolute;
   height: 60px!important;
   width: 60px!important;
+  z-index: 1;
 }
 
 #board-info h1 {
