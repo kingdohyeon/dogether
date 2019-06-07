@@ -39,6 +39,10 @@ header>#header-search-bar #header-search-input {
   color: #7DCDE9;
 }
 
+header>#header-search-bar #header-search-input {
+  border-color: #7DCDE9;
+}
+
 /* 좌측 메뉴 버튼 */
 header>#header-area>#header-bar-link {
   color: #7DCDE9;
