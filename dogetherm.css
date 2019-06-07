@@ -194,12 +194,9 @@ a.board-right-menu .fa-twitch:before {
 
 #board-info #viewers-area .fa-user:before {
     color: rgba(10,59,84,0);
-    content: url(https://static-cdn.jtvnw.net/badges/v1/7d37060f-32d4-45c3-ac05-76143e55906e/3);
+    content: url(https://static-cdn.jtvnw.net/badges/v1/7d37060f-32d4-45c3-ac05-76143e55906e/1);
     position: relative;
     bottom: 1px;
-    display: inline-flex;
-    width: 18px;
-    height: 18px;
 }
 
 /* 우측 메뉴 (즐겨찾기 정보 트위치 클립) */
