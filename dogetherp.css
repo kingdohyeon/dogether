@@ -171,13 +171,14 @@ header #header-bar>.row {
 /* 좌측 메뉴 앞 아이콘 */
 .fa-navicon:before,
 .fa-reorder:before,
-.fa-bars:before {
+.fa-bars:before,
+.fa-square:before {
   color: #049ADF;
 }
 
-.fa-square:before {
+/* .fa-square:before {
   color: #081a53;
-}
+} */
 
 /* 좌측 메뉴 메뉴사이의 공간 색상 */
 #main .menu-wrapper .spacer {
