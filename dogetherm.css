@@ -100,6 +100,11 @@ header>#header-area>#header-bar-link {
   bottom: 2px;
 }
 
+a.board-right-menu .fa-star:before {
+  position: relative;
+  top: 1px;
+}
+
 a.board-right-menu .fa-twitch:before {
   position: relative;
   top: 1px;
