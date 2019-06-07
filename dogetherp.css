@@ -95,6 +95,13 @@ header #header-bar .fa {
   top: 3.5px;
 }
 
+#addFavoriteBtn .fa-star-o:before {
+  content:  url(https://kingdohyeon.github.io/dogether/img/Wow15.png);
+  filter:drop-shadow(1px 1px 1px rgba(1,0,0,0));
+  position: relative;
+  top: 3.5px;
+}
+
 /* 프로필 드롭다운 */
 .dropdown.open .dropdown-menu,
 .input-group-btn.open .dropdown-menu {
