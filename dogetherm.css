@@ -500,7 +500,7 @@ span.a-badge i.fa.fa-star {
   background-size: contain;
 }
 
-ins.adsbygoogle, iframe {
+ins.adsbygoogle {
   position: fixed;
   display: none!important;
 }
