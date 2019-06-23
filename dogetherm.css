@@ -202,6 +202,7 @@ a.board-right-menu .fa-twitch:before {
     content: url(https://static-cdn.jtvnw.net/badges/v1/7d37060f-32d4-45c3-ac05-76143e55906e/1);
     position: relative;
     bottom: 1px;
+    margin-left: 5px;
 }
 
 /* 우측 메뉴 (즐겨찾기 정보 트위치 클립) */
