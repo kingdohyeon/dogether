@@ -480,6 +480,11 @@ span.a-badge i.fa.fa-star {
   font-size: 15px;
 }
 
+/* 인기 콘텐츠*/
+div.trc_rbox_container {
+  display: none;
+}
+
 /*게시글 댓글 정보 색상 (댓글 n개) */
 #article-reply-area>.header h5 {
   color: #62bffc;
