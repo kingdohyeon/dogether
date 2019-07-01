@@ -2,7 +2,7 @@
 /*
 Developer: SOJIN KIM 김소진 (for DOHYEON KIM 김도현)
 e-mail: sojinkeem@gmail.com / sojinkeem@naver.com
-Updated: June 24, 2019 
+Updated: July 1, 2019 
 */
 
 body {
@@ -403,7 +403,7 @@ span.a-badge i.fa.fa-star {
 .btn.btn.btn-outline-success.vote-btn {
   border-color: #01B8DE;
   height: 45px;
-  width: 100px;
+  width: 110px;
   font-size: 15px;
 }
 
@@ -411,7 +411,7 @@ span.a-badge i.fa.fa-star {
 .btn.best, .btn-outline-primary {
   border-color: #198EE8;
   height: 45px;
-  width: 100px;
+  width: 110px;
   font-size: 15px;
 }
 
