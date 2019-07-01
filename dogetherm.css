@@ -403,7 +403,7 @@ span.a-badge i.fa.fa-star {
 .btn.btn.btn-outline-success.vote-btn {
   border-color: #01B8DE;
   height: 45px;
-  width: 110px;
+  width: 120px;
   font-size: 15px;
 }
 
@@ -411,7 +411,7 @@ span.a-badge i.fa.fa-star {
 .btn.best, .btn-outline-primary {
   border-color: #198EE8;
   height: 45px;
-  width: 110px;
+  width: 120px;
   font-size: 15px;
 }
 
