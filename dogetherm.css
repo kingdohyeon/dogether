@@ -174,8 +174,9 @@ a.board-right-menu .fa-twitch:before {
 }
 
 #board-info #viewers-area {
-    position: relative;
-    top: 3px;
+    position: absolute;
+    top: 135px;
+    left: 71px;
 }
 
 /* 자유로운 도비*/
