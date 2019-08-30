@@ -2,7 +2,7 @@
 /*
 Developer: SOJIN KIM 김소진 (for DOHYEON KIM 김도현)
 e-mail: sojinkeem@gmail.com / sojinkeem@naver.com
-Updated: July 1, 2019
+Updated: Aug 30, 2019
 */
 
 /* 전체 배경*/
@@ -254,7 +254,7 @@ header #header-bar>.row {
     border: 2px dotted aliceblue;
 }
 #board-info h1 > a.badge.badge-live::after { 
-    content: " 뱅송중"; 
+    content: ""; 
 }
 
 #board-info #viewers-area {
