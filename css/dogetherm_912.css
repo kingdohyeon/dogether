@@ -166,7 +166,7 @@ a.board-right-menu .fa-twitch:before {
 
 /* live 방송 배지 */
 #board-info h1 > a.badge.badge-live { 
-    background: #3aaefb;
+    background: #6198fb;;
     border: 2px dotted aliceblue;
     margin: 0px 5px 0px 0px;
 }
