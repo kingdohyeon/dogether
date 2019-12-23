@@ -151,7 +151,7 @@ a {
 
 /* 헤더 상단 Nav Bar 테두리 */
 header #header-bar>.row {
-  border: 3px solid #8bbcea;
+  border: 3px solid #8bb4ea;
 }
 
 /* 메인블록 테두리 */
@@ -181,7 +181,7 @@ header #header-bar>.row {
 
 /* 좌측 메뉴 (트게더 전체메뉴, 유용한링크, 트위치 스케쥴) */
 #main .menu-wrapper>.header {
-  background: #8bbcea;
+  background: #8bb4ea;
 }
 
 /* 좌측 메뉴 숏컷링크 색상 (A B H O P W Q T N E) */
@@ -315,7 +315,7 @@ header #header-bar>.row {
 /* 글 목록 설정*/
 /* 상단 메뉴 전체 설정*/
 #article-list #article-list-category {
-  border-top: 3px solid #8bbcea;
+  border-top: 3px solid #8bb4ea;
   border-bottom: none;
   background: #deecff;
   margin-top: .5em;
