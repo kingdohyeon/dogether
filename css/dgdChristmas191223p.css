@@ -157,7 +157,7 @@ header #header-bar>.row {
 /* 메인블록 테두리 */
 #main .menu-wrapper,
 #main #main-content>div.frame {
-  border-top: 3px solid #8baeff;
+  border-top: 3px solid #8bbcea;
   border-right: none;
   border-bottom: none;
   border-left: none;
